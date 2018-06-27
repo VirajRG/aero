@@ -1,0 +1,29 @@
+.sponsors-list {
+  padding:1rem;
+  .spons-img {
+    vertical-align: middle;
+    margin:1rem 1rem;
+    text-align: center;
+    img{  
+      text-align: center;
+      vertical-align: middle;
+      margin:auto 0;
+      min-width:300px;
+      max-width:500px;
+      width:300px;
+      height:auto;
+    }
+  }
+}
+
+.brochure-wrapper {
+  width:100%;
+  text-align:center;
+  margin:2rem;
+  a{
+    color:#fff;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
