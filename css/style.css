@@ -205,7 +205,7 @@ body {
     color: #FF4D4D; }
   .footer .span-2 .fa-code {
     color: #000;
-    font-weight: bold; }
+    font-weight: 550; }
   .footer .span-3 {
     padding: 0;
     text-align: right;
@@ -219,6 +219,36 @@ body {
       border-right: none; }
     .footer .span-3 a:hover {
       text-decoration: none; }
+
+.about {
+  margin: 3rem 2rem; }
+  .about .about-title {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    padding: 1rem; }
+  .about .about-tag {
+    font-size: 1.1rem;
+    font-family: 'Raleway', sans-serif;
+    color: #333; }
+  .about .overlay-wrapper .about-image {
+    background-image: url("../img/team.jpg");
+    background-size: cover;
+    background-color: transparent;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    margin: 2rem auto; }
+    .about .overlay-wrapper .about-image .btn {
+      border: 2px solid #333;
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.5);
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    .about .overlay-wrapper .about-image .btn:hover {
+      background-color: rgba(255, 255, 255, 0.8); }
 
 .navbar {
   display: flex;
