@@ -180,6 +180,46 @@ body {
   /* Make all right container-vs behave like the left ones */
   .right {
     left: 0%; } }
+.footer {
+  line-height: 4.5rem;
+  width: 100%;
+  background: #eee;
+  text-align: center;
+  padding: 2.3rem 2rem  1.5rem 2rem;
+  margin: 0;
+  margin-left: 0rem !important;
+  margin-right: 0;
+  display: flex; }
+  .footer p {
+    color: #333; }
+  .footer .span-1 {
+    text-align: left;
+    margin: 0 auto;
+    vertical-align: middle; }
+  .footer .span-2 .fa {
+    font-size: 18px;
+    margin-top: 0px;
+    transform: translateY(10%);
+    margin: 0 auto; }
+  .footer .span-2 .fa-heart {
+    color: #FF4D4D; }
+  .footer .span-2 .fa-code {
+    color: #000;
+    font-weight: bold; }
+  .footer .span-3 {
+    padding: 0;
+    text-align: right;
+    margin: 0 auto; }
+    .footer .span-3 a {
+      color: #333;
+      padding-right: 8px;
+      padding-left: 4px;
+      border-right: 1px solid #333; }
+    .footer .span-3 .link-team {
+      border-right: none; }
+    .footer .span-3 a:hover {
+      text-decoration: none; }
+
 .navbar {
   display: flex;
   justify-content: space-between;
