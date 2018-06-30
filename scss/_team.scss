@@ -1,0 +1,73 @@
+.team-img-wrapper {
+  text-align:center;
+  padding:1rem 0;
+  .team-img {
+    height:500px;
+    width:auto;
+  }
+}
+.team-title {
+  font-family: $primary-family;
+  color:#333;
+  font-size: 3rem;
+  text-align: center;
+}
+.dept-name {
+  color:#333;
+  font-size:2rem;
+  font-family: $primary-family;
+  padding:1rem 2rem;
+}
+.team-row {
+  margin:auto;
+  display:flex;
+  justify-content: space-around ;
+  padding:1rem 3rem;
+  max-width:100%;
+  .team-card {
+    min-width:325px;
+    max-width:325px;
+    padding:1rem;
+    border-radius:8px;
+    margin:1rem 0;
+    text-align: center;
+    .img-container {
+      position: relative;
+      width: 80%;
+      margin:1rem auto;
+      .member-image {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius:50%;
+      }
+      .overlay {
+        position: absolute;
+        border-radius:50%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(0,0,0,0.6);
+        .overlay-text {
+          color: white;
+          font-size: 16px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+        }
+      }
+    }
+    .img-container:hover .overlay {
+      opacity: 1;
+    }
+  }
+}
+
